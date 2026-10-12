@@ -1,74 +1,85 @@
-<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Vitaliia Sivakovas ansökan till Zalos Key User på PostNord TPL. Lagererfarenhet, IT-studier och vilja att utvecklas."><title>Vitaliia Sivakova - Zalos Key User · PostNord TPL</title><link rel="stylesheet" href="styles.css"></head><body>  <div class="intro" >
-    <div class="cosmos-field"></div>
-    <div class="nebula nebula-one"></div>
-    <div class="nebula nebula-two"></div>
-    <div class="star-orbit orbit-a"></div>
-    <div class="star-orbit orbit-b"></div>
-    <div class="star-orbit orbit-c"></div>
-    <div class="cosmic-floor"></div>
+<!DOCTYPE html><html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Vitaliia Sivakovas ansökan till Zalos Key User på PostNord TPL. Lagererfarenhet, IT-studier och vilja att utvecklas."><title>Vitaliia Sivakova - Zalos Key User · PostNord TPL</title><link rel="stylesheet" href="styles.css"></head><body>  <div class="intro" id="intro">
+    <div class="starfield"></div>
+    <div class="grid-floor"></div>
 
-    <button class="intro-skip" type="button">Hoppa över intro</button>
-    <div class="cinema-ui intro-menu">POSTNORD TPL</div>
-
-    <div class="postnord-glow-badge">
-      <span class="pn-word">POSTNORD TPL</span>
-      <span class="pn-tpl">TPL</span>
-      <small>Ansökan · Zalos Key User</small>
+    <div class="intro-progress-track"><div class="intro-progress-bar" id="bar"></div></div>
+    <div class="intro-topbar">
+      <span class="intro-label">Sökande till Zalos Key User · PostNord TPL</span>
+      <button class="skip-btn" id="skipBtn">Hoppa över ⏭</button>
     </div>
 
-    <div class="intro-stage">
-      <div class="galaxy-disc galaxy-disc-one"></div>
-      <div class="galaxy-disc galaxy-disc-two"></div>
-      <div class="portal portal-back"></div>
-      <div class="portal portal-main"></div>
-      <div class="portal portal-front"></div>
-      <div class="portal portal-laser"></div>
-      <div class="portal portal-gold"></div>
-      <div class="portal-core"></div>
-      <div class="light-beam beam-one"></div>
-      <div class="light-beam beam-two"></div>
+    <div class="route-wrap">
+      <div class="route-tilt" id="routeTilt">
+        <svg class="route-svg route-svg-desktop" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="routeGrad" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0" stop-color="#00A3E0"/>
+              <stop offset="1" stop-color="#FFCC00"/>
+            </linearGradient>
+          </defs>
+          <path id="routePath" class="route-path" d="M50,430 Q170,410 225,395 Q280,380 335,365 Q390,350 450,330 Q510,310 570,295 Q630,280 690,265 Q750,250 810,230 Q870,210 930,185 Q990,160 1140,60"/>
+        </svg>
+        <svg class="route-svg route-svg-mobile" viewBox="0 0 600 1200" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <linearGradient id="routeGradM" x1="0" y1="1" x2="0" y2="0">
+              <stop offset="0" stop-color="#00A3E0"/>
+              <stop offset="1" stop-color="#FFCC00"/>
+            </linearGradient>
+          </defs>
+          <path id="routePathMobile" class="route-path" style="stroke:url(#routeGradM)" d="M300,1150 Q180,1040 280,995 Q380,930 290,875 Q200,820 300,765 Q400,710 300,655 Q200,600 300,545 Q400,490 300,435 Q200,380 300,325 Q400,270 300,80"/>
+        </svg>
+        <div class="marker" id="marker"></div>
 
-      <div class="cosmic-comet comet-one"></div>
-      <div class="cosmic-comet comet-two"></div>
-      <div class="hologram-grid"></div>
-
-      <div class="intro-sequence" aria-hidden="true">
-        <section class="seq seq-postnord">
-          <div class="seq-kicker">POSTNORD TPL</div>
-          <div class="split-3d word-postnord" data-text="POSTNORD TPL">POSTNORD TPL</div>
-
-        </section>
-
-        <section class="seq seq-name">
-
-          <div class="split-3d word-name" data-text="VITALIIA SIVAKOVA">VITALIIA SIVAKOVA</div>
-
-        </section>
-
-        <section class="seq seq-role">
-          <div class="seq-kicker">SÖKANDE</div>
-          <div class="split-3d word-role" data-text="ZALOS KEY USER">ZALOS KEY USER</div>
-
-        </section>
-      </div>
-
-      <section class="seq seq-final"><div class="seq-kicker">LAGERERFARENHET · IT-STUDIER</div><div class="split-3d word-final" data-text="VILJA ATT UTVECKLAS">VILJA ATT UTVECKLAS</div></section>
-      <div class="skill-node node-left node-1"><span>Lagererfarenhet</span><small>Kvalitet, säkerhet och samarbete</small></div>
-      <div class="skill-node node-left node-2"><span>Kommunikation</span><small>Samarbetar och dokumenterar tydligt</small></div>
-      <div class="skill-node node-right node-3"><span>Systemförståelse</span><small>Teknisk grund genom IT-studier</small></div>
-      <div class="skill-node node-right node-4"><span>Resultatfokus</span><small>Analyserar problem och vill lära</small></div>
-
-      <div class="intro-logo ultra-logo">
-        <div class="intro-company">POSTNORD TPL</div>
-        <div class="intro-status">SÖKANDE</div>
-        <div class="intro-role">ZALOS KEY USER</div>
-        <div class="intro-name">VITALIIA<br />SIVAKOVA</div>
-        <div class="intro-traits">LAGER · IT-STUDIER · ANALYS · UTVECKLING</div>
-        <div class="intro-postnord-line">Vill utvecklas inom WMS, Zalos och användarstöd</div>
+        <div class="pin above m-left edge-left" style="--dx:14.2%;--dy:68.3%;--mx:30%;--my:86.7%">
+          <div class="pin-dot"></div>
+          <div class="pin-card"><i class="pin-short">Ukraina</i><b>8+ år · Ukraina</b><span>Internationell persontrafik, dokumenthantering, gränsmyndigheter</span></div>
+        </div>
+        <div class="pin below m-right" style="--dx:23.3%;--dy:63.3%;--mx:63.3%;--my:77.5%">
+          <div class="pin-dot"></div>
+          <div class="pin-card"><i class="pin-short">Eget företag</i><b>Eget företag · Ukraina</b><span>Kundkontakt, administration, planering och organisering</span></div>
+        </div>
+        <div class="pin below m-left" style="--dx:32.5%;--dy:58.3%;--mx:33.3%;--my:68.3%">
+          <div class="pin-dot"></div>
+          <div class="pin-card"><i class="pin-short">Sverige</i><b>2022–2025 · Sverige</b><span>Gymnasial utbildning, svenska som andraspråk 3, engelska 6</span></div>
+        </div>
+        <div class="pin below m-right" style="--dx:42.5%;--dy:51.7%;--mx:66.7%;--my:59.2%">
+          <div class="pin-dot"></div>
+          <div class="pin-card"><i class="pin-short">Zalando</i><b>Nästan tre år · Zalando</b><span>CEVA Logistics · lagerprocesser, kvalitet, produktivitet, säkerhet</span></div>
+        </div>
+        <div class="pin below m-left" style="--dx:52.5%;--dy:46.7%;--mx:33.3%;--my:50%">
+          <div class="pin-dot"></div>
+          <div class="pin-card"><i class="pin-short">Nackademin</i><b>2026 · Nackademin</b><span>Excel · RPA · Power BI — dataanalys, processoptimering, KPI-uppföljning</span></div>
+        </div>
+        <div class="pin below m-right" style="--dx:62.5%;--dy:41.7%;--mx:66.7%;--my:40.8%">
+          <div class="pin-dot"></div>
+          <div class="pin-card"><i class="pin-short">.NET</i><b>Sedan 2025 · Webbutvecklare .NET</b><span>Nackademin · C#, ASP.NET Core, SQL, Git/GitHub, Agile/Scrum</span></div>
+        </div>
+        <div class="pin below m-left" style="--dx:72.5%;--dy:35%;--mx:33.3%;--my:31.7%">
+          <div class="pin-dot"></div>
+          <div class="pin-card"><i class="pin-short">IBMI Berlin</i><b>2026 · IBMI, Berlin</b><span>Leadership &amp; Team Development · Time Management · Digital Transformation</span></div>
+        </div>
+        <div class="pin below m-right" style="--dx:82.5%;--dy:26.7%;--mx:66.7%;--my:22.5%">
+          <div class="pin-dot"></div>
+          <div class="pin-card"><i class="pin-short">RPA med AI</i><b>Pågående studier · Nackademin</b><span><strong>MLOps Engineer</strong> – sedan aug 2026<br><strong>RPA med AI</strong> – pågående studier</span></div>
+        </div>
+        <div class="pin below m-left m-top edge-right" style="--dx:95%;--dy:10%;--mx:50%;--my:6.7%">
+          <div class="pin-dot gold"></div>
+          <div class="pin-card gold"><i class="pin-short">PostNord TPL</i><b>PostNord TPL, Brunna</b><span>Sökande till Zalos Key User</span></div>
+        </div>
       </div>
     </div>
 
-    <div class="intro-scroll">INTRO 10 SEKUNDER · ZALOS KEY USER</div>
+    <div class="finale" id="finale">
+      <div>
+        <div class="photo-portal"><img src="profile.jpg" alt="Vitaliia Sivakova"/></div>
+        <div class="word word-name" id="wordName" data-split>Vitaliia Sivakova</div>
+        <div class="finale-kicker" id="finaleKicker">Sökande</div>
+        <div class="word word-role" id="wordRole" data-split>Zalos Key User</div>
+        <p class="role-sub" id="roleSub">Vill utvecklas inom Zalos, WMS och användarstöd.</p>
+      </div>
+    </div>
+
+    <div class="intro-vignette"></div>
   </div>
 
 <header class="site-header"><a class="brand" href="index.html" aria-label="Startsida"><span class="brand-mark">VS</span><span>Vitaliia · ZKU</span></a><button class="nav-toggle" aria-label="Öppna meny" aria-expanded="false" aria-controls="main-nav">☰</button><nav class="nav" id="main-nav"><a href="index.html">Start</a><a href="cv.html">CV</a><a href="personligt-brev.html">Personligt brev</a><a href="diplom.html">Utbildningar &amp; intyg</a></nav></header><main><section class="hero"><div class="hero-copy"><span class="eyebrow">Sökande till Zalos Key User (ZKU) · PostNord TPL</span><h1>Vitaliia <span>Sivakova</span></h1><p class="lead">Lagererfarenhet och IT-kunskaper – med vilja att växa inom PostNord TPL.</p><p>Jag vill kombinera nästan tre års erfarenhet från Zalando-verksamheten med mina IT-studier och lära mig WMS och Zalos på djupet.</p><div class="hero-actions"><a class="btn primary" href="cv.html">Öppna CV</a><a class="btn secondary" href="personligt-brev.html">Personligt brev</a><a class="btn secondary" href="#utbildning">Mina IT-kunskaper</a></div></div><div class="hero-card"><div class="photo-frame"><img src="profile.jpg" alt="Vitaliia Sivakova" width="600" height="700"></div><div class="floating-badge">Lager · IT · Analys</div></div></section>
