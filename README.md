@@ -1,5 +1,7 @@
-# zalos-key-user-cv
-Vitaliia Sivakova – ansökan till Zalos Key User (ZKU), PostNord TPL
+# Vitaliia Sivakova - Zalos Key User (ZKU)
 
-https://bondarenkovita35-afk.github.io/zalos-key-user-cv/
+[Öppna 3D-CV och ansökan](https://bondarenkovita35-afk.github.io/zalos-key-user-cv/)
 
+Ansökan till PostNord TPL med CV, personligt brev, utbildningar och intyg.
+
+Statisk webbplats på svenska med 3D-animation och responsiv design.
