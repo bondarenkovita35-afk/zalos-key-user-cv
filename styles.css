@@ -487,3 +487,6 @@ body{font-size:16px}button{font:inherit;cursor:pointer}a{overflow-wrap:anywhere}
 .cv-portrait{float:right;width:120px;height:150px;object-fit:cover;object-position:center 22%;border-radius:16px;margin:0 0 20px 24px}.reading-document:after{content:"";display:block;clear:both}@media(max-width:480px){.cv-portrait{float:none;display:block;margin:0 0 24px;width:110px;height:138px}}
 
 .word-role{font-size:clamp(28px,5vw,64px)}.reading-document{perspective:1200px}.reading-document h2{text-shadow:0 2px 0 #e5eaf0}.document-hero h1{white-space:normal}.pt-letter{max-width:100%}
+
+body.motion-enabled .reveal{transform:perspective(1000px) translateY(24px) rotateX(8deg)}body.motion-enabled .reveal.show{transform:perspective(1000px) translateY(0) rotateX(0)}@media(prefers-reduced-motion:reduce){.pt-letter,.page-kicker{opacity:1;transform:none}body.motion-enabled .reveal{transform:none}}
+
